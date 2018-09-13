@@ -1,0 +1,32 @@
+body, .gameOver{
+    margin: 0;
+    padding: 0;
+    
+    overflow: hidden;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+}
+
+.gameOver{
+    width: 100vw;
+    height: 100vh;
+    
+    background: rgba(0, 0, 0, 0.5);
+    
+    position: absolute;
+    
+    font-size: 40px;
+    color: red;
+    
+    visibility: hidden;
+}
+
+.counter{
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}
